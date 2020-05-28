@@ -175,6 +175,9 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        // Laravel-Form-builder (Kristijan Husak)
+        Kris\LaravelFormBuilder\FormBuilderServiceProvider::class
+
     ],
 
     /*
@@ -226,6 +229,7 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+        'FormBuilder' => Kris\LaravelFormBuilder\Facades\FormBuilder::class
 
     ],
 
