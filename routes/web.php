@@ -12,3 +12,9 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+// Dashboard
+Route::get('/', 'LandingController@dashboard')->name('landing.dashboard');
+
+// Brands CRUD ROUTES
+Route::resource('/brands', 'BrandController');

@@ -2,20 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45ab27c0-d387-471e-ba9f-0209d7c36f19" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/cars.crud.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cars.crud.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d613b2ed-079c-4b4b-ac7a-7917eb55ba8d.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d613b2ed-079c-4b4b-ac7a-7917eb55ba8d/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ecc80df2-4118-4090-81e3-af7cee87e18d.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ecc80df2-4118-4090-81e3-af7cee87e18d/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/oneui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/oneui.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -151,6 +156,11 @@
       <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
       <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
       <path value="$PROJECT_DIR$/vendor/kris/laravel-form-builder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
     </include_path>
   </component>
   <component name="ProjectId" id="1cYDK0zWuJ2jGD9Di4A76x107KN" />
@@ -165,7 +175,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/layouts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../me.booking" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -189,7 +199,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590696565670</updated>
-      <workItem from="1590696567530" duration="4951000" />
+      <workItem from="1590696567530" duration="12610000" />
+      <workItem from="1590926106852" duration="14048000" />
     </task>
     <servers />
   </component>
@@ -205,13 +216,25 @@
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
     <state x="3416" y="126" width="816" height="1226" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1590698997995" />
+    <state x="3614" y="503" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590704989332">
+      <screen x="2560" y="0" width="2560" height="1400" />
+    </state>
+    <state x="3614" y="503" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1590704989332" />
+    <state x="3594" y="212" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1590706074212">
+      <screen x="2560" y="0" width="2560" height="1400" />
+    </state>
+    <state x="3594" y="212" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1590706074212" />
+    <state x="1774" y="348" key="FileChooserDialogImpl" timestamp="1590929459623">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1774" y="348" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1590929459623" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1590698503356">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1590698503356" />
-    <state x="3503" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1590703005717">
+    <state x="3503" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1590927036209">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state x="3503" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1590703005717" />
+    <state x="3503" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1590927036209" />
   </component>
 </project>
