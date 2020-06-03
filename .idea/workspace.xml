@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45ab27c0-d387-471e-ba9f-0209d7c36f19" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6345c929-7b2d-412c-832a-5e7b2c5e0649.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6345c929-7b2d-412c-832a-5e7b2c5e0649.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Brand.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Brand.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BrandController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BrandController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/LandingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/LandingController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/landing/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/landing/dashboard.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/landing.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/landing.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TruckController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TruckController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +196,7 @@
       <workItem from="1590696567530" duration="12610000" />
       <workItem from="1590926106852" duration="24333000" />
       <workItem from="1591040268591" duration="4112000" />
-      <workItem from="1591188121548" duration="7312000" />
+      <workItem from="1591188121548" duration="7922000" />
     </task>
     <servers />
   </component>

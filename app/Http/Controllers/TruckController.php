@@ -50,7 +50,7 @@ class TruckController extends Controller
      */
     public function store(FormBuilder $formBuilder,Request $request)
     {
-        // Brand FOrm
+        // Truck FOrm
         $brandForm = $formBuilder->create(TruckForm::class);
         $brandForm->redirectIfNotValid();
 
@@ -74,7 +74,7 @@ class TruckController extends Controller
      */
     public function show($id)
     {
-        // Find Brand with Id
+        // Find Truck with Id
         $object = Truck::findOrFail($id);
 
         // return brands.show blade and using $object variable :).
@@ -114,7 +114,7 @@ class TruckController extends Controller
      */
     public function update($id, Request $request, FormBuilder $formBuilder)
     {
-        // Find Brand with Id
+        // Find Truck with Id
         $object = Truck::findOrFail($id);
 
         // Form Builder
@@ -139,10 +139,9 @@ class TruckController extends Controller
         // Find Brand with ID
         $object = Truck::findOrFail($id);
 
-        // Delete Brand
+        // Delete Truck
         $object->delete();
 
-        $object->truck()->detach();
         // Redirect index blade
         return redirect()->route('trucks.index');
     }

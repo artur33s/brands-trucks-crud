@@ -142,6 +142,8 @@ class BrandController extends Controller
 
         // Delete Brand
         $object->delete();
+
+        // IF Trucks have this deleted Brand then delete to.
         $object->truck()->delete();
 
         // Redirect index blade
