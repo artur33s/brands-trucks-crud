@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45ab27c0-d387-471e-ba9f-0209d7c36f19" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/cars.crud.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cars.crud.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d613b2ed-079c-4b4b-ac7a-7917eb55ba8d.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d613b2ed-079c-4b4b-ac7a-7917eb55ba8d/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ecc80df2-4118-4090-81e3-af7cee87e18d.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ecc80df2-4118-4090-81e3-af7cee87e18d/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6345c929-7b2d-412c-832a-5e7b2c5e0649.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6345c929-7b2d-412c-832a-5e7b2c5e0649.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/oneui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/oneui.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Brand.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Brand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BrandController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BrandController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/LandingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/LandingController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/landing/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/landing/dashboard.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/landing.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/landing.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -164,7 +160,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1cYDK0zWuJ2jGD9Di4A76x107KN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -175,8 +173,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../me.booking" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../morph.crud" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Laravel.SettingsForm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -200,7 +199,9 @@
       <option name="presentableId" value="Default" />
       <updated>1590696565670</updated>
       <workItem from="1590696567530" duration="12610000" />
-      <workItem from="1590926106852" duration="14048000" />
+      <workItem from="1590926106852" duration="24333000" />
+      <workItem from="1591040268591" duration="4112000" />
+      <workItem from="1591188121548" duration="7312000" />
     </task>
     <servers />
   </component>
@@ -220,21 +221,30 @@
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
     <state x="3614" y="503" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1590704989332" />
-    <state x="3594" y="212" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1590706074212">
+    <state x="3594" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1590951343543">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state x="3594" y="212" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1590706074212" />
-    <state x="1774" y="348" key="FileChooserDialogImpl" timestamp="1590929459623">
+    <state x="3594" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1590951343543" />
+    <state x="3570" y="455" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1590965783932">
+      <screen x="2560" y="0" width="2560" height="1400" />
+    </state>
+    <state x="3570" y="455" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1590965783932" />
+    <state x="1774" y="348" key="FileChooserDialogImpl" timestamp="1591189168869">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1774" y="348" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1590929459623" />
+    <state x="1774" y="348" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1591042557426" />
+    <state x="1774" y="348" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1591189168869" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1590698503356">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1590698503356" />
-    <state x="3503" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1590927036209">
+    <state x="781" y="342" key="SettingsEditor" timestamp="1591041097905">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="781" y="342" key="SettingsEditor/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1591041097905" />
+    <state x="3503" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1590965983378">
       <screen x="2560" y="0" width="2560" height="1400" />
     </state>
-    <state x="3503" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1590927036209" />
+    <state x="3503" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/2560.0.2560.1400@2560.0.2560.1400" timestamp="1590965983378" />
   </component>
 </project>

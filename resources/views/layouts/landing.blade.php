@@ -16,7 +16,7 @@
         <!-- Side Header -->
         <div class="content-header bg-white-5">
             <!-- Logo -->
-            <a class="font-w600 text-dual" href="index.html">
+            <a class="font-w600 text-dual" href="{{route('landing.dashboard')}}">
                 <i class="fa fa-circle-notch text-primary"></i>
                 <span class="smini-hide">
                             <span class="font-w700 font-size-h5">ne</span> <span class="font-w400">4.0</span>
@@ -115,7 +115,7 @@
                     </a>
                 </li>
                 <li class="nav-main-item">
-                    <a class="nav-main-link" href="#">
+                    <a class="nav-main-link" href="{{route('trucks.index')}}">
                         <i class="nav-main-link-icon si si-speedometer"></i>
                         <span class="nav-main-link-name">Trucks</span>
                     </a>

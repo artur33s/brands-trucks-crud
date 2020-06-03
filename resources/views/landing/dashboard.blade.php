@@ -22,14 +22,14 @@
             <div class="col-lg-6">
                 <a class="block block-rounded block-link-pop border-left border-primary border-4x" href="javascript:void(0)">
                     <div class="block-content block-content-full">
-                        <div class="font-size-sm font-w600 text-uppercase text-muted">Visitors</div>
-                        <div class="font-size-h2 font-w400 text-dark">120,580</div>
+                        <div class="font-size-sm font-w600 text-uppercase text-muted">Brands</div>
+                        <div class="font-size-h2 font-w400 text-dark">{{$brandsCount}}</div>
                     </div>
                 </a>
 
                     <div class="block block-mode-loading-oneui">
                         <div class="block-header border-bottom">
-                            <h3 class="block-title">Latest Customers</h3>
+                            <h3 class="block-title">BRANDS TABLE</h3>
                             <div class="block-options">
                                 <button type="button" class="btn-block-option" data-toggle="block-option" data-action="state_toggle" data-action-mode="demo">
                                     <i class="si si-refresh"></i>
@@ -43,157 +43,41 @@
                             <table class="table table-striped table-hover table-borderless table-vcenter font-size-sm mb-0">
                                 <thead class="thead-dark">
                                 <tr class="text-uppercase">
-                                    <th class="font-w700" style="width: 80px;">ID</th>
-                                    <th class="d-none d-sm-table-cell font-w700 text-center" style="width: 100px;">Photo</th>
-                                    <th class="font-w700">Name</th>
-                                    <th class="d-none d-sm-table-cell font-w700 text-center" style="width: 80px;">Orders</th>
-                                    <th class="font-w700 text-center" style="width: 60px;"></th>
+                                    <th width="50%" class="font-w700" style="width: 80px;">ID</th>
+                                    <th width="50%" class="font-w700">Name</th>
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr>
-                                    <td>
-                                        <span class="font-w600">#01368</span>
-                                    </td>
-                                    <td class="d-none d-sm-table-cell text-center">
-                                        <img class="img-avatar img-avatar32" src="assets/media/avatars/avatar15.jpg" alt="">
-                                    </td>
-                                    <td class="font-w600">
-                                        Thomas Riley                                </td>
-                                    <td class="d-none d-sm-table-cell text-center">
-                                        <a class="link-fx font-w600" href="javascript:void(0)">5</a>
-                                    </td>
-                                    <td class="text-center">
-                                        <a href="javascript:void(0)" data-toggle="tooltip" data-placement="left" title="Edit">
-                                            <i class="fa fa-fw fa-pencil-alt"></i>
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <span class="font-w600">#01368</span>
-                                    </td>
-                                    <td class="d-none d-sm-table-cell text-center">
-                                        <img class="img-avatar img-avatar32" src="assets/media/avatars/avatar2.jpg" alt="">
-                                    </td>
-                                    <td class="font-w600">
-                                        Melissa Rice                                </td>
-                                    <td class="d-none d-sm-table-cell text-center">
-                                        <a class="link-fx font-w600" href="javascript:void(0)">14</a>
-                                    </td>
-                                    <td class="text-center">
-                                        <a href="javascript:void(0)" data-toggle="tooltip" data-placement="left" title="Edit">
-                                            <i class="fa fa-fw fa-pencil-alt"></i>
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <span class="font-w600">#01368</span>
-                                    </td>
-                                    <td class="d-none d-sm-table-cell text-center">
-                                        <img class="img-avatar img-avatar32" src="assets/media/avatars/avatar15.jpg" alt="">
-                                    </td>
-                                    <td class="font-w600">
-                                        Jose Wagner                                </td>
-                                    <td class="d-none d-sm-table-cell text-center">
-                                        <a class="link-fx font-w600" href="javascript:void(0)">15</a>
-                                    </td>
-                                    <td class="text-center">
-                                        <a href="javascript:void(0)" data-toggle="tooltip" data-placement="left" title="Edit">
-                                            <i class="fa fa-fw fa-pencil-alt"></i>
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <span class="font-w600">#01368</span>
-                                    </td>
-                                    <td class="d-none d-sm-table-cell text-center">
-                                        <img class="img-avatar img-avatar32" src="assets/media/avatars/avatar3.jpg" alt="">
-                                    </td>
-                                    <td class="font-w600">
-                                        Megan Fuller                                </td>
-                                    <td class="d-none d-sm-table-cell text-center">
-                                        <a class="link-fx font-w600" href="javascript:void(0)">36</a>
-                                    </td>
-                                    <td class="text-center">
-                                        <a href="javascript:void(0)" data-toggle="tooltip" data-placement="left" title="Edit">
-                                            <i class="fa fa-fw fa-pencil-alt"></i>
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <span class="font-w600">#01368</span>
-                                    </td>
-                                    <td class="d-none d-sm-table-cell text-center">
-                                        <img class="img-avatar img-avatar32" src="assets/media/avatars/avatar12.jpg" alt="">
-                                    </td>
-                                    <td class="font-w600">
-                                        Albert Ray                                </td>
-                                    <td class="d-none d-sm-table-cell text-center">
-                                        <a class="link-fx font-w600" href="javascript:void(0)">3</a>
-                                    </td>
-                                    <td class="text-center">
-                                        <a href="javascript:void(0)" data-toggle="tooltip" data-placement="left" title="Edit">
-                                            <i class="fa fa-fw fa-pencil-alt"></i>
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <span class="font-w600">#01368</span>
-                                    </td>
-                                    <td class="d-none d-sm-table-cell text-center">
-                                        <img class="img-avatar img-avatar32" src="assets/media/avatars/avatar1.jpg" alt="">
-                                    </td>
-                                    <td class="font-w600">
-                                        Betty Kelley                                </td>
-                                    <td class="d-none d-sm-table-cell text-center">
-                                        <a class="link-fx font-w600" href="javascript:void(0)">1</a>
-                                    </td>
-                                    <td class="text-center">
-                                        <a href="javascript:void(0)" data-toggle="tooltip" data-placement="left" title="Edit">
-                                            <i class="fa fa-fw fa-pencil-alt"></i>
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <span class="font-w600">#01368</span>
-                                    </td>
-                                    <td class="d-none d-sm-table-cell text-center">
-                                        <img class="img-avatar img-avatar32" src="assets/media/avatars/avatar11.jpg" alt="">
-                                    </td>
-                                    <td class="font-w600">
-                                        Jose Wagner                                </td>
-                                    <td class="d-none d-sm-table-cell text-center">
-                                        <a class="link-fx font-w600" href="javascript:void(0)">12</a>
-                                    </td>
-                                    <td class="text-center">
-                                        <a href="javascript:void(0)" data-toggle="tooltip" data-placement="left" title="Edit">
-                                            <i class="fa fa-fw fa-pencil-alt"></i>
-                                        </a>
-                                    </td>
-                                </tr>
+                                    @forelse($brands as $brand)
+                                        <tr>
+                                            <td>
+                                                <span class="font-w600 link-fx"><a href="{{route('brands.show', $brand->id)}}">#{{$brand->id}}</a></span>
+                                            </td>
+                                            <td class="font-w600">
+                                                {{$brand->name}}
+                                            </td>
+                                        </tr>
+                                        @empty
+                                        <h6 class="text-danger">Empty Record</h6>
+                                    @endforelse
                                 </tbody>
                             </table>
                         </div>
+                        {!! $brands->links() !!}
                     </div>
                 <!-- END Latest Customers -->
             </div>
             <div class="col-lg-6">
                 <a class="block block-rounded block-link-pop border-left border-primary border-4x" href="javascript:void(0)">
                     <div class="block-content block-content-full">
-                        <div class="font-size-sm font-w600 text-uppercase text-muted">Sales</div>
-                        <div class="font-size-h2 font-w400 text-dark">150</div>
+                        <div class="font-size-sm font-w600 text-uppercase text-muted">Trucks</div>
+                        <div class="font-size-h2 font-w400 text-dark">{{$trucksCount}}</div>
                     </div>
                 </a>
                 <!-- Latest Orders -->
                     <div class="block block-mode-loading-oneui">
                         <div class="block-header border-bottom">
-                            <h3 class="block-title">Latest Orders</h3>
+                            <h3 class="block-title">TRUCKS TABLE</h3>
                             <div class="block-options">
                                 <button type="button" class="btn-block-option" data-toggle="block-option" data-action="state_toggle" data-action-mode="demo">
                                     <i class="si si-refresh"></i>
@@ -207,188 +91,44 @@
                             <table class="table table-striped table-hover table-borderless table-vcenter font-size-sm mb-0">
                                 <thead class="thead-dark">
                                 <tr class="text-uppercase">
-                                    <th class="font-w700">ID</th>
-                                    <th class="d-none d-sm-table-cell font-w700">Date</th>
-                                    <th class="font-w700">State</th>
-                                    <th class="d-none d-sm-table-cell font-w700 text-right" style="width: 120px;">Price</th>
-                                    <th class="font-w700 text-center" style="width: 60px;"></th>
+                                    <th width="10%" class="font-w700">ID</th>
+                                    <th width="10%" class="d-none d-sm-table-cell font-w700">BRAND</th>
+                                    <th  width="10%" class="font-w700">YEAR</th>
+                                    <th  width="20%" class="d-none d-sm-table-cell font-w700 text-right" style="width: 120px;">OWNER FULL NAME</th>
+                                    <th  width="10%" class="d-none d-sm-table-cell font-w700 text-right" style="width: 120px;">NUMBER OF OWNERS</th>
+                                    <th width="40%" class="d-none d-sm-table-cell font-w700 text-right" style="width: 120px;">COMMENT</th>
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr>
-                                    <td>
-                                        <span class="font-w600">#07835</span>
-                                    </td>
-                                    <td class="d-none d-sm-table-cell">
-                                        <span class="font-size-sm text-muted">today</span>
-                                    </td>
-                                    <td>
-                                        <span class="font-w600 text-warning">Pending..</span>
-                                    </td>
-                                    <td class="d-none d-sm-table-cell text-right">
-                                        $999,99
-                                    </td>
-                                    <td class="text-center">
-                                        <a href="javascript:void(0)" data-toggle="tooltip" data-placement="left" title="Manage">
-                                            <i class="fa fa-fw fa-pencil-alt"></i>
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <span class="font-w600">#07834</span>
-                                    </td>
-                                    <td class="d-none d-sm-table-cell">
-                                        <span class="font-size-sm text-muted">today</span>
-                                    </td>
-                                    <td>
-                                        <span class="font-w600 text-warning">Pending..</span>
-                                    </td>
-                                    <td class="d-none d-sm-table-cell text-right">
-                                        $2.299,00
-                                    </td>
-                                    <td class="text-center">
-                                        <a href="javascript:void(0)" data-toggle="tooltip" data-placement="left" title="Manage">
-                                            <i class="fa fa-fw fa-pencil-alt"></i>
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <span class="font-w600">#07833</span>
-                                    </td>
-                                    <td class="d-none d-sm-table-cell">
-                                        <span class="font-size-sm text-muted">today</span>
-                                    </td>
-                                    <td>
-                                        <span class="font-w600 text-success">Completed</span>
-                                    </td>
-                                    <td class="d-none d-sm-table-cell text-right">
-                                        $1200,00
-                                    </td>
-                                    <td class="text-center">
-                                        <a href="javascript:void(0)" data-toggle="tooltip" data-placement="left" title="Manage">
-                                            <i class="fa fa-fw fa-pencil-alt"></i>
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <span class="font-w600">#07832</span>
-                                    </td>
-                                    <td class="d-none d-sm-table-cell">
-                                        <span class="font-size-sm text-muted">today</span>
-                                    </td>
-                                    <td>
-                                        <span class="font-w600 text-danger">Cancelled</span>
-                                    </td>
-                                    <td class="d-none d-sm-table-cell text-right">
-                                        $399,00
-                                    </td>
-                                    <td class="text-center">
-                                        <a href="javascript:void(0)" data-toggle="tooltip" data-placement="left" title="Manage">
-                                            <i class="fa fa-fw fa-pencil-alt"></i>
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <span class="font-w600">#07831</span>
-                                    </td>
-                                    <td class="d-none d-sm-table-cell">
-                                        <span class="font-size-sm text-muted">yesterday</span>
-                                    </td>
-                                    <td>
-                                        <span class="font-w600 text-success">Completed</span>
-                                    </td>
-                                    <td class="d-none d-sm-table-cell text-right">
-                                        $349,00
-                                    </td>
-                                    <td class="text-center">
-                                        <a href="javascript:void(0)" data-toggle="tooltip" data-placement="left" title="Manage">
-                                            <i class="fa fa-fw fa-pencil-alt"></i>
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <span class="font-w600">#07830</span>
-                                    </td>
-                                    <td class="d-none d-sm-table-cell">
-                                        <span class="font-size-sm text-muted">yesterday</span>
-                                    </td>
-                                    <td>
-                                        <span class="font-w600 text-success">Completed</span>
-                                    </td>
-                                    <td class="d-none d-sm-table-cell text-right">
-                                        $999,00
-                                    </td>
-                                    <td class="text-center">
-                                        <a href="javascript:void(0)" data-toggle="tooltip" data-placement="left" title="Manage">
-                                            <i class="fa fa-fw fa-pencil-alt"></i>
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <span class="font-w600">#07829</span>
-                                    </td>
-                                    <td class="d-none d-sm-table-cell">
-                                        <span class="font-size-sm text-muted">yesterday</span>
-                                    </td>
-                                    <td>
-                                        <span class="font-w600 text-success">Completed</span>
-                                    </td>
-                                    <td class="d-none d-sm-table-cell text-right">
-                                        $39,99
-                                    </td>
-                                    <td class="text-center">
-                                        <a href="javascript:void(0)" data-toggle="tooltip" data-placement="left" title="Manage">
-                                            <i class="fa fa-fw fa-pencil-alt"></i>
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <span class="font-w600">#07828</span>
-                                    </td>
-                                    <td class="d-none d-sm-table-cell">
-                                        <span class="font-size-sm text-muted">yesterday</span>
-                                    </td>
-                                    <td>
-                                        <span class="font-w600 text-success">Completed</span>
-                                    </td>
-                                    <td class="d-none d-sm-table-cell text-right">
-                                        $499,00
-                                    </td>
-                                    <td class="text-center">
-                                        <a href="javascript:void(0)" data-toggle="tooltip" data-placement="left" title="Manage">
-                                            <i class="fa fa-fw fa-pencil-alt"></i>
-                                        </a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <span class="font-w600">#07827</span>
-                                    </td>
-                                    <td class="d-none d-sm-table-cell">
-                                        <span class="font-size-sm text-muted">yesterday</span>
-                                    </td>
-                                    <td>
-                                        <span class="font-w600 text-success">Completed</span>
-                                    </td>
-                                    <td class="d-none d-sm-table-cell text-right">
-                                        $325,00
-                                    </td>
-                                    <td class="text-center">
-                                        <a href="javascript:void(0)" data-toggle="tooltip" data-placement="left" title="Manage">
-                                            <i class="fa fa-fw fa-pencil-alt"></i>
-                                        </a>
-                                    </td>
-                                </tr>
+                                @forelse($trucks as $truck)
+                                    <tr>
+                                        <td>
+                                            <span class="font-w600 link-fx"><a href="{{route('trucks.show', $truck->id)}}">#{{$truck->id}}</a></span>
+                                        </td>
+                                        <td class="d-none d-sm-table-cell">
+                                            <span class="font-size-sm text-muted">{{$truck->brand->name}}</span>
+                                        </td>
+                                        <td>
+                                            <span class="font-w600">{{$truck->year}}</span>
+                                        </td>
+                                        <td class="d-none d-sm-table-cell text-right">
+                                            {{$truck->owner_full_name}}
+                                        </td>
+                                        <td class="d-none d-sm-table-cell text-right">
+                                            {{$truck->number_of_owners}}
+                                        </td>
+                                        <td class="d-none d-sm-table-cell text-right">
+                                            {{$truck->comment}}
+                                        </td>
+                                    </tr>
+                                    @empty
+                                    <h6 class="text-danger">Empty Record</h6>
+                                @endforelse
+
                                 </tbody>
                             </table>
                         </div>
+                        {!! $trucks->links() !!}
                     </div>
                 <!-- END Latest Orders -->
             </div>

@@ -18,3 +18,4 @@ Route::get('/', 'LandingController@dashboard')->name('landing.dashboard');
 
 // Brands CRUD ROUTES
 Route::resource('/brands', 'BrandController');
+Route::resource('/trucks', 'TruckController');
