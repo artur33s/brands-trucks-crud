@@ -31,7 +31,6 @@
                 <p><strong> OWNER FULL NAME:</strong> {{$object->owner_full_name}}</p>
                 <p><strong> NUMBER OF OWNERS:</strong> {{$object->number_of_owners}}</p>
                 <p><strong> COMMENT:</strong> {{$object->comment}}</p>
-
             </div>
         </div>
     </div>

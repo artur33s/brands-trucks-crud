@@ -57,13 +57,13 @@
                             </td>
                             <td class="text-center">
                                 <div class="btn-group">
-                                    <a href="{{route('trucks.edit', $object->id)}}" class="btn btn-sm btn-light" data-toggle="tooltip" title="Edit Brand">
+                                    <a href="{{route('trucks.edit', $object->id)}}" class="btn btn-sm btn-light" data-toggle="tooltip" title="Edit Truck">
                                         <i class="fa fa-fw fa-pencil-alt"></i>
                                     </a>
                                     <form action="{{ route('trucks.destroy',$object->id)}}" method="POST">
                                         @method('DELETE')
                                         @csrf
-                                        <button type="submit" class="btn btn-sm btn-light" data-toggle="tooltip" title="Remove Brand">
+                                        <button type="submit" class="btn btn-sm btn-light" data-toggle="tooltip" title="Remove Truck">
                                             <i class="fa fa-fw fa-times"></i>
                                         </button>
                                     </form>

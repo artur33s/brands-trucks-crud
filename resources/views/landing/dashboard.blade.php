@@ -134,15 +134,6 @@
             </div>
         </div>
         <!-- END Stats -->
-
-
-        <!-- Customers and Latest Orders -->
-        <div class="row row-deck">
-
-
-
-        </div>
-        <!-- END Customers and Latest Orders -->
     </div>
     <!-- END Page Content -->
 @stop

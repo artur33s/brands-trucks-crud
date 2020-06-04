@@ -16,7 +16,7 @@ class TruckController extends Controller
      */
     public function index()
     {
-        // Get all Truck orderBy created_at and paginate auto 12.
+       // Get all Truck orderBy created_at and paginate auto 12.
         $objects = Truck::orderByDesc('created_at')->paginate(12);
 
         // return truck index blade and using $objects variable
